@@ -2,8 +2,8 @@
     "version":2,
     "builds":[{
         "src":"./index.js" , "use":
-        "avercel/node"
+        "@vercel/node"
     }]
     ,
-    "reutes":[{"src":"*(.*)", "dest":"/"}]
+    "reutes":[{"src":"/(.*)", "dest":"/"}]
 }
