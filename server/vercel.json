@@ -3,6 +3,7 @@
     "builds":[{
         "src":"./index.js" , "use":
         "avercel/node"
-    }],
+    }]
+    ,
     "reutes":[{"src":"*(.*)", "dest":"/"}]
 }
