@@ -5,5 +5,5 @@
         "@vercel/node"
     }]
     ,
-    "reutes":[{"src":"/(.*)", "dest":"/"}]
+    "routes":[{"src":"/(.*)", "dest":"/"}]
 }
